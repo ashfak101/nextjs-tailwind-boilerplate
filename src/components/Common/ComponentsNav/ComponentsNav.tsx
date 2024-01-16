@@ -7,6 +7,13 @@ const ComponentsNav = () => {
       <ul className='flex justify-center gap-3 py-2'>
         <li>
           <Link
+            href='/react-components/buttons'
+            className='text-gray-500 text-md '>
+            Buttons
+          </Link>
+        </li>
+        <li>
+          <Link
             href='/react-components/icons'
             className='text-gray-500 text-md '>
             Icon
