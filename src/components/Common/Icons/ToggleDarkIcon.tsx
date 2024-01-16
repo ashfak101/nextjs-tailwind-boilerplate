@@ -2,7 +2,7 @@ interface Props extends React.SVGProps<SVGSVGElement> {
   width?: number
 }
 
-export const ToggleDarkIcon = ({ width = 20, className, ...props }: Props) => {
+const ToggleDarkIcon = ({ width = 20, className, ...props }: Props) => {
   if (typeof width !== 'number') throw new Error('width must be a number')
   const height = (width * 20) / 20
 
@@ -19,3 +19,4 @@ export const ToggleDarkIcon = ({ width = 20, className, ...props }: Props) => {
     </svg>
   )
 }
+export default ToggleDarkIcon

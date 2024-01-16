@@ -3,9 +3,11 @@
 import clsx from 'clsx'
 import { useEffect, useState } from 'react'
 
-import { ToggleDarkIcon, ToggleLightIcon } from '@/components/Common/Icons'
 import { LOCAL_STORAGE_THEME_KEY } from '@/utils/constants/common'
 import { getLocalStorageItem, setLocalStorageItem } from '@/utils/helpers'
+
+import ToggleDarkIcon from './Icons/ToggleDarkIcon'
+import ToggleLightIcon from './Icons/ToggleLightIcon'
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState('')
